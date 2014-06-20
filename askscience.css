@@ -1,0 +1,79 @@
+.linkinfo{
+    width:300px;
+    height:122px;
+    padding:0;
+    background:#FFF;
+    border:1px solid #DDD;
+    border-radius:0
+}
+.linkinfo .date{
+    margin:0 5px;
+    padding:5px 0;
+    border-bottom:1px solid #ECECEC;
+    font-size:12px;
+    font-weight:bold;
+    text-align:center
+}
+.linkinfo .date span{
+    font-size:0;color:#FFF
+}
+.linkinfo .date span:after{
+    content:"This post was submitted on ";
+    display:inline;
+    font-size:12px;
+    font-weight:normal;
+    color:#111
+}
+.linkinfo .score{
+    width:95px;
+    margin:7px 0 0 7px;
+    padding:10px 0;
+    display:inline-block;
+    border:none;
+    font-size:11px;
+    text-align:center
+}
+.linkinfo .score .number{
+    display:block;
+    font-size:20px;
+    font-weight:normal
+}
+.linkinfo .score .word{
+    display:none
+}
+.linkinfo .upvotes,.linkinfo .downvotes{
+    width:95px;
+    padding:10px 0;
+    display:inline-block;
+    border-left:1px solid #ECECEC;
+    font-size:12px;
+    text-align:center
+}
+.linkinfo .upvotes .number,.linkinfo .downvotes .number{
+    display:block;
+    position:relative;
+    top:1px;
+    font-size:20px
+}
+.linkinfo .upvotes .word,.linkinfo .downvotes .word{
+    display:none
+}
+.linkinfo .upvotes:after{
+    content:"signal";font-size:11px
+}
+.linkinfo .downvotes:after{
+    content:"noise";font-size:11px
+}
+.linkinfo .shortlink{
+    margin-top:0;
+    font-size:0;
+    text-align:center;
+    visibility:hidden
+}
+.linkinfo .shortlink input{
+    margin:7px 0 2px 0;
+    border:1px solid #DDD;
+    font-size:11px;
+    text-align:center;
+    visibility:visible
+}
