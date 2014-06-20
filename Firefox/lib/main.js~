@@ -1,8 +1,5 @@
 var pageMod = require("sdk/page-mod");
 var self = require("sdk/self");
-var { MatchPattern } = require("sdk/util/match-pattern");
-var pattern = new MatchPattern(/.*reddit.*\/r\/.*\/comments\/.*/);
-
 
 pageMod.PageMod({
     include: ["*.reddit.com"],

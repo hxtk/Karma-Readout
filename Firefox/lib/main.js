@@ -3,6 +3,6 @@ var self = require("sdk/self");
 
 pageMod.PageMod({
     include: ["*.reddit.com"],
-    contentScriptWhen: "ready",
+    contentScriptWhen: "start",
     contentScriptFile: self.data.url("script.js")
 });
