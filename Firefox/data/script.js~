@@ -10,9 +10,9 @@ var x = parseInt(n) + parseInt(y);
 
 var text = $('.linkinfo .score').html();
 
-text =  text + '<br><span style="color:#FF4500; font-size:80%">'+
+text =  text + '<br><span class="upvotes" style="color:#FF4500; font-size:80%">'+
         x + '&#32;upvotes</span>&#32;'+
-        '<span style="color:#5F99CF; font-size:80%">'+
+        '<span class="downvotes" style="color:#5F99CF; font-size:80%">'+
         y + '&#32;downvotes</span>';
 
 $('.linkinfo .score').html(text);
