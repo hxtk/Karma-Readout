@@ -6,8 +6,8 @@
   "version": "1.0",
 
   "permissions": [
-    "http://*.reddit.com/r/*",
-    "https://*.reddit.com/r/*"
+    "http://*.reddit.com/r/*/comments/",
+    "https://*.reddit.com/r/*/comments/"
   ],
   "content_scripts": [
     {
